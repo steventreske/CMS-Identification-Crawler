@@ -12,7 +12,6 @@ import java.util.List;
 import ValueObjects.Cookie;
 import ValueObjects.Site;
 
-// Keine Ahnung, wie ich diese Klasse testen soll. Integrationstest ist scheiﬂe, weil sich Webseiten ver‰ndern. Unittest ist scheiﬂe, weil URL, URLConnection, etc. quasi eine Blackbox sind... scheiﬂ Java
 public class SiteParser {
 	private String url;
 
